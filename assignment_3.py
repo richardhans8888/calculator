@@ -1,5 +1,5 @@
 groceries_list = []
-choice : 0
+choice : 0 # oh noo this should be a variable assignment not a colon :(
 
 while choice != 4:
     print('[1] Add an item')
@@ -39,3 +39,8 @@ while choice != 4:
             print('Not a valid input.')
 
 print('Bye')
+
+"""
+the code is very close to perfect!! it just needs some error handling just incase the user inputs a string when they should
+actually input a number. overall very neat and good!!
+"""
